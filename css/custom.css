@@ -1,0 +1,163 @@
+.bg-main {
+	background: linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../img/job-search.jpg) no-repeat center center fixed !important; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover !important;
+}
+/*my style*/
+.navbar-default {
+    padding: 0 15px;
+}
+.logo {
+    font-size: 30px;
+    font-family: sans-serif;
+}
+.logo-cl{color: #37a000;}
+.header_bold {
+    background: #37a000;
+    color: white !important;
+    padding: 10px 15px !important;
+    margin-top: 15px !important;
+}
+.btn-success {
+    
+    border-color: #379f00 !important;
+    background-color: #379f00;
+}
+.navbar-default .navbar-nav>li>a {
+
+    margin: 10px 0;
+}
+.navbar-default .navbar-nav>li>a {
+    font-weight: inherit;
+}
+.index-head {
+	padding: 10%;
+	color: #fff;
+	line-height: 150%;
+}
+
+.index-head > h1 {
+	font-size: 60px;
+}
+
+
+.index-head > p {
+	font-size: 32px;
+}
+
+.index-head > p > a {
+	margin-top: 20px;
+}
+
+.latest-job {
+	line-height: 150%;
+}
+
+.latest-job > h1 {
+	font-size: 60px;
+}
+
+.candidate-img > img {
+	width: 350px;
+	height: 175px;
+}
+
+.company-img > img {
+	width: 350px;
+	height: 200px;
+}
+
+.about-text > p {
+	font-size: 17px;
+	line-height: 150%;
+}
+
+.margin-bottom-20 {
+	margin-bottom: 20px;
+}
+
+.margin-top-50 {
+	margin-top: 50px;
+}
+
+.margin-top-20 {
+	margin-top: 20px;
+}
+
+.padding-5 {
+	padding: 5%;
+}
+
+.padding-2 {
+	padding: 2%;
+}
+.bg-white {
+	background-color: #fff;
+}
+.margin-right-10 {
+	margin-right: 10px;
+}
+
+.bg-c-yellow {
+	background-color: #FFC;
+}
+
+.color-red {
+	color: red;
+}
+
+.hide-me {
+	display: none;
+}
+.content-header {
+    padding: 0;
+}
+.jobrequirment{
+	color: #02a102;
+	margin-right:5px;
+    font-weight: bold;
+}
+.apply-now{
+	float:right;
+	color:#02a102;
+}
+.media-object{
+	height:100px;
+}
+.candidates {
+    position: relative;
+    /* padding: 15px 15px 0 15px; */
+    background:#fff !important;
+}
+.clind_pic{
+	height:50px;
+	width:50px;
+	border-radius:50%;
+}
+.company{
+	color:#a0a0a0;
+	background:#494949;
+	margin-top: 30px;
+}
+.company h2{
+	    color: #fff;
+    padding: 20px 0;
+padding: 30px 0 65px;
+}
+.company p{
+	padding: 10px 0;
+	font-size:15px;
+}
+.vid{
+	margin-top: 15px;
+}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: #379e00 !important;
+    background-color: #777d8312;
+}
+.btn-info {
+    background-color: #379f00;
+    border-color: #379f00;
+}
