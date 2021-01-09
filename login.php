@@ -60,7 +60,7 @@ if(isset($_SESSION['id_user']) || isset($_SESSION['id_company'])) {
             <a href="login.php"> LOG IN <i class="fa fa-sign-in" aria-hidden="true"></i></a>
           </li>
           <li>
-            <a href="sign-up.php">SING UP <i class="fa fa-address-book-o" aria-hidden="true"></i></a>
+            <a href="sign-up.php">SIGN UP <i class="fa fa-address-book-o" aria-hidden="true"></i></a>
           </li> 
           <?php } else { 
 

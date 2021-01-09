@@ -55,7 +55,7 @@ require_once("db.php");
 		</ul>
         <ul class="nav navbar-nav navbar-right">
 <li>
-            <a class="header_bold" href="#company">POST A JOBS</a>
+            <a class="header_bold" href="http://localhost/work-finder/register-company.php">POST A JOBS</a>
           </li>		
           <li>
             <a href="jobs.php">FIND A JOBS</a>
@@ -130,7 +130,7 @@ require_once("db.php");
             <div class="attachment-block clearfix">
               <img class="attachment-img" src="img/photo1.png" alt="Attachment Image">
               <div class="attachment-pushed">
-                <h4 class="attachment-heading"><a href="view-job-post.php?id=<?php echo $row['id_jobpost']; ?>"><?php echo $row['jobtitle']; ?></a> <span class="attachment-heading pull-right">$<?php echo $row['maximumsalary']; ?>/Month</span></h4>
+                <h4 class="attachment-heading"><a href="view-job-post.php?id=<?php echo $row['id_jobpost']; ?>"><?php echo $row['jobtitle']; ?></a> <span class="attachment-heading pull-right">Taka: <?php echo $row['maximumsalary']; ?>/Month</span></h4>
 			<div>
               <?php echo stripcslashes($row['description']); ?>
             </div>
@@ -213,7 +213,7 @@ require_once("db.php");
 			  </div>
 			  <div class="media-body">
 				<h4 class="media-heading">4. Payment simplified </h4>
-				Pay hourly or fixed-price and receive invoices through Upwork. Pay for work you authorize.
+				Pay hourly or fixed-price and receive invoices through Work Finder. Pay for work you authorize.
 			  </div>
 			</div>
           </div>
@@ -369,7 +369,7 @@ require_once("db.php");
             <img src="img/browse.jpg" class="img-responsive">
           </div>
           <div class="col-md-6 about-text margin-bottom-20">
-            <p>The online job portal application allows job seekers and recruiters to connect.The application provides the ability for job seekers to create their accounts, upload their profile and resume, search for jobs, apply for jobs, view different job openings. The application provides the ability for companies to create their accounts, search candidates, create job postings, and view candidates applications.
+            <p>The online Work Finder application allows job seekers and recruiters to connect.The application provides the ability for job seekers to create their accounts, upload their profile and resume, search for jobs, apply for jobs, view different job openings. The application provides the ability for companies to create their accounts, search candidates, create job postings, and view candidates applications.
             </p>
             <p>
               This website is used to provide a platform for potential candidates to get their dream job and excel in yheir career.
@@ -387,7 +387,7 @@ require_once("db.php");
 
   <footer class="main-footer" style="margin-left: 0px;">
     <div class="text-center">
-      <strong>Copyright &copy; 2020-2021 <a href="https://web.facebook.com/mahmud.918">Work Finder</a>.</strong> All rights
+      <strong>Copyright &copy; 2020-2021 <a href="http://localhost/work-finder/">Work Finder</a>.</strong> All rights
     reserved.
     </div>
   </footer>

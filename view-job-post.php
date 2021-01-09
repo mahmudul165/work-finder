@@ -12,7 +12,7 @@ require_once("db.php");
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Job Portal</title>
+  <title>WORK FINDER</title>
   <!-- Tell the browser to be responsive to screen width -->
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
   <!-- Bootstrap 3.3.7 -->
@@ -47,7 +47,7 @@ require_once("db.php");
       <!-- mini logo for sidebar mini 50x50 pixels -->
       <span class="logo-mini"><b>J</b>P</span>
       <!-- logo for regular state and mobile devices -->
-      <span class="logo-lg"><b>Job</b> Portal</span>
+      <span class="logo-lg"><b>Work</b> Finder</span>
     </a>
 
     <!-- Header Navbar: style can be found in header.less -->
@@ -116,8 +116,9 @@ require_once("db.php");
                 <hr>
                 <div class="row">
                   <div class="col-md-4"><a href=""><i class="fa fa-address-card-o"></i> Apply</a></div>
-                  <div class="col-md-4"><a href=""><i class="fa fa-warning"></i> Report</a></div>
-                  <div class="col-md-4"><a href=""><i class="fa fa-envelope"></i> Email</a></div>
+                  <div class="col-md-4"><a href="https://forms.gle/Tcx7ss6oFgZVnXup6" target="_blank
+                  "><i class="fa fa-warning"></i> Report</a></div>
+                  <div class="col-md-4"><a href="https://mail.google.com/mail/u/0/?tab=km&amp;pli=1#inbox?compose=lqrsljbPmbsDBPxksgfMGKwgkCHKDDrqxzgkgdwJCDzSlLdkPDLtFlSRlpHpTThgTPrrMHqgNSBgKrmzp" target="_blank"><i class="fa fa-envelope"></i> Email</a></div>
                 </div>
               </div>
             </div>
@@ -138,7 +139,7 @@ require_once("db.php");
 
   <footer class="main-footer" style="margin-left: 0px;">
     <div class="text-center">
-      <strong>Copyright &copy; 2016-2017 <a href="jonsnow.netai.net">Job Portal</a>.</strong> All rights
+      <strong>Copyright &copy; 2016-2017 <a href="#work-finder">WORK FINDER</a>.</strong> All rights
     reserved.
     </div>
   </footer>
